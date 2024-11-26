@@ -41,6 +41,7 @@ float: left;
 }
 
 .menu a{
+    font-family: Consolas,monaco,monospace;
     color:rgba(0, 255, 47, 0.73);
     padding-left: 5vw;
 margin-top: 10vh;
