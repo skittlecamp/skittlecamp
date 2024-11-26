@@ -99,6 +99,7 @@ color: rgb(185, 145, 93);
     border-right: 4px solid orange;
     animation: printed-text 2s steps(30),
                flashin-border .75s step-start infinite;
+      animation-delay:5s;
   }
 
   
