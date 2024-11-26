@@ -18,8 +18,23 @@ body{background-color:black;}
 }
 
 
-h1,p,h2,b,i{font-family: Consolas, monaco, monospace;
-color: rgba(0, 255, 47, 0.993);}
+.part2 {margin-left:5%;}
+
+.spisok{display: flex;}
+
+a{font-family: Consolas, monaco, monospace;
+    color: rgba(0, 255, 47, 0.559);
+
+
+}
+
+h1,li,ul{font-family: Consolas, monaco, monospace;
+    color: rgba(0, 255, 47, 0.993);
+}
+
+p,b,i{font-family: Consolas, monaco, monospace;
+color: rgba(0, 255, 47, 0.993);
+margin-top: 5%;}
 
 
 
@@ -39,6 +54,8 @@ float: left;
 
 
 }
+
+
 
 .menu a{
     font-family: Consolas,monaco,monospace;
@@ -69,7 +86,7 @@ color: rgb(185, 145, 93);
 
 .content{
     width: 60vw;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(0, 0, 0);
     color:rgb(0, 255, 47) ;
     font-family: Consolas;
@@ -79,7 +96,7 @@ color: rgb(185, 145, 93);
 
 
 .text {
-    animation: 2.1s fadeIn;
+    animation: 0.6s fadeIn;
     animation-fill-mode: forwards;
     visibility: hidden;
 }
@@ -98,7 +115,7 @@ color: rgb(185, 145, 93);
     overflow: hidden;
     white-space: nowrap;
     border-right: 4px solid orange;
-    animation: printed-text 2s steps(30),
+    animation: printed-text 0.5s steps(30),
                flashin-border .75s step-start infinite;
   }
 
@@ -135,3 +152,11 @@ color: rgb(185, 145, 93);
     }
   }
 
+
+
+  .table {
+    color:rgb(0, 255, 47) ;
+    background-color:rgb(0, 255, 47);
+    border-color: rgb(0, 255, 47);
+    font-family: Consolas, monaco,monospace;
+  }
