@@ -3,7 +3,7 @@ var canvas = document.querySelector('canvas'),
     ctx = canvas.getContext('2d');
 
 // Setting the width and height of the canvas
-canvas.width = window.innerWidth;
+canvas.width = window.innerWidth; 
 canvas.height = window.innerHeight*2;
 
 // Setting up the letters
