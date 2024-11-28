@@ -4,7 +4,7 @@ var canvas = document.querySelector('canvas'),
 
 // Setting the width and height of the canvas
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight*1;
+canvas.height = window.innerHeight*2;
 
 // Setting up the letters
 var letters = 'SKITTLECAMPSKITTLECAMPSKITTLECAMPSKITTLECAMPSKITTLECAMPSKITTLECAMPSKITTLECAMP';
