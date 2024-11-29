@@ -32,10 +32,11 @@ h1,li,ul{font-family: Consolas, monaco, monospace;
     color: rgba(0, 255, 47, 0.993);
 }
 
-p,b,i,img{font-family: Consolas, monaco, monospace;
+p,b,i{font-family: Consolas, monaco, monospace;
 color: rgba(0, 255, 47, 0.993);
 margin-top: 5%;}
 
+.main img{margin-top:5%;}
 
 
 .header img{
